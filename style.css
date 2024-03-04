@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height:520px;
+    margin: 0px auto;
+    border: 1px solid #333;
+}
+
+
+.sidebar {
+    margin-left: 2%;
+    width: 200px; /* Largeur du sidebar */
+    height: 90%;
+    margin-top: 2%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.items {
+    margin-left: 20%;
+    margin-top: 30%;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: -37%;
+    margin-left: 18%;
+    height: 89%;
+    /* padding: 20px; */
+    background-color: rgba(128, 128, 128, 0.32);
+}
+
+
+.content .navbar {
+    display: flex;
+    width: 95%;
+    margin-top: 3px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  
+
+  .content .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    left: 30%;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: rgba(0, 0, 0, 0.854);
+    text-decoration: none;
+    text-decoration: underline;
+   
+
+  }
+  
+  .container{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .element1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    width: 310px;
+    top: 30px;
+    left: 30px;
+    height: 100px;
+    background-color: #333;
+  }
+  .element2{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    width: 300px;
+    top: 30px;
+    left: 5%;
+    height: 100px;
+    background-color: #333;
+  }
+  .element3{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    width: 300px;
+    top: 30px;
+    left: 6%;
+    height: 100px;
+    background-color: #333;
+  }
+
+
+
+
+  
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%; 
+        height: auto; 
+        overflow: hidden;
+    }
+    .sidebar {
+        width: 100%; 
+        height: 300px;
+        overflow: hidden;
+
+    }
+    
+    .items {
+        margin-left: 10%;
+        font-size: 14px;
+        margin-top:10px;  
+    }
+    .content {
+        margin-left: 0; 
+        padding: 10px; 
+        overflow: hidden;
+
+    }
+
+
+    .content .navbar {
+        display: flex;
+        width: 90%;
+        margin-top: 3px;
+        margin: 0 auto;
+        margin-top: 40%;
+        border: 1px solid black;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        overflow: hidden;
+
+      }
+
+    .content .menu {
+        left: auto;
+        width:100%; 
+    }
+    
+
+    
+
+    .container {
+        position: absolute;
+        flex-direction: column; 
+    }
+    .element1{
+        position: relative;
+        width: 150px;
+        height: 100px;
+        left: 20px;
+    }
+
+    .element2{
+        position: relative;
+        width:150px;
+        height: 100px;
+        left: 200px;
+        top: -90px;
+    }
+
+    .element3{
+        position: relative;
+        width: 220%;
+        height: 100px;
+        left: 110px;
+        top: -90px;
+        
+    }
+
+
+
+    .content .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        left: 30%;
+      }
+      
+      .menu li {
+        margin-left: -100px;
+        gap: 40px;
+      }
+      
+      .menu li:last-child {
+        margin-right: 0;
+      }
+      
+      .menu li a {
+        color: rgba(0, 0, 0, 0.854);
+        text-decoration: none;
+        text-decoration: underline;
+       
+    
+      }
+
+     .content{
+        position: absolute;
+     }
+
+     .content h1{
+        position: relative;
+        top: 30%;
+        font-size: 3px;
+     }
+}
+  
